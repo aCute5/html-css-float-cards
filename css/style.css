@@ -11,9 +11,7 @@ h1{
 }
 
 div>* {
-    margin-left:0;
-    margin-right:0;
-    text-align: left;
+        text-align: left;
 }
 
 .blackcontainer{
