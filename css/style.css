@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+   
+h1{
+    color: red;
+}
+
+div>* {
+    margin-left:0;
+    margin-right:0;
+    text-align: left;
+}
+
+.blackcontainer{
+                background-color: black;
+                color: white;
+                display: inline-block;
+                padding-top: 0px;
+                padding-bottom: 15px ;
+                margin-bottom: 15px;
+                text-align: left;                     
+}
+.imagebox {
+            max-width: 100px;
+            float: left;
+            margin-left: 0;
+            margin-right: 18px;
+            margin-top: 0;
+            margin-bottom: 0;
+}
