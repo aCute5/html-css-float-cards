@@ -1,8 +1,8 @@
-*{
+body{
     font-family: sans-serif;
     box-sizing: border-box;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
    
@@ -10,24 +10,40 @@ h1{
     color: red;
 }
 
-div>* {
-        text-align: left;
+main{
+        max-width: 1000px;
+        margin: auto;
 }
 
+div>* {
+        text-align: left;
+        
+}  
+
 .blackcontainer{
+                width: calc(33.3% - 2rem);
+                float: left;
+                margin-top: 50px;
+                margin-right: 2em;
                 background-color: black;
                 color: white;
                 display: inline-block;
-                padding-top: 0px;
-                padding-bottom: 15px ;
-                margin-bottom: 15px;
-                text-align: left;                     
-}
+}          
 .imagebox {
-            max-width: 100px;
+            max-width: 130px;
             float: left;
-            margin-left: 0;
-            margin-right: 18px;
-            margin-top: 0;
-            margin-bottom: 0;
+            margin-right: 10px;
 }
+
+.job,h4,a{
+            margin-left: 10px;
+            
+}
+
+
+
+
+
+
+          
+              
